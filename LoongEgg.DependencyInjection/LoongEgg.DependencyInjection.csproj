@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Description>Dependency Injection Container</Description>
+    <Version>1.0.0-alp</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>E:\Published\LoongEgg.DependencyInjection\LoongEgg.DependencyInjection\LoongEgg.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
